@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Local database / runtime data
+data/
+*.sqlite
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment / secrets
+.env
+.env.local
+*.env.local
+
+# Editor / IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# App desktop (Electron)
+.stage/
+sortie*/
+builder.log
+builder2.log
+*.exe
+desktop/*.zip
